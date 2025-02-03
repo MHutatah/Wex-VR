@@ -6,14 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Old Assets/Scenes/Rooms/Room1.unity
+    path: Assets/Scenes/Rooms/Room1.unity
     guid: 9a898f041e21cf44a936b993cd917f4a
-  - enabled: 0
-    path: Assets/Scenes/Abdulmajeed/Main Menu.unity
-    guid: fde4c278760b48847a4fbab0e83225ba
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cdd5448850d32e442b7464cab9bb6e1a,
       type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 9d1e1145234c0574f9196f1d5af5fd0f,
+      type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 569f1254321ac4645a4ad57f171b86a7,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 18f06cdd6a06b064395d116a259f4acd,

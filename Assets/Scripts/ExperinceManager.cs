@@ -170,12 +170,10 @@ public class ModeSelectionManager : MonoBehaviour
 
     public void ExitExperience()
     {
-        #if UNITY_STANDALONE
-            Application.Quit();
-        #endif
-        
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
         #endif
     }
 }
